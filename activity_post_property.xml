@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rent" />
+
+    <EditText
+        android:id="@+id/editTextRentSplit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rent Split" />
+
+    <EditText
+        android:id="@+id/editTextNumberOfPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of People" />
+
+    <EditText
+        android:id="@+id/editTextRegistrationNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Registration Number" />
+
+    <Button
+        android:id="@+id/buttonUploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Photo" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Property" />
+
+</LinearLayout>
